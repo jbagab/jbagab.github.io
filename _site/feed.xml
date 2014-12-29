@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Bugs are green and Buzzin</title>
+		<description>The torture never stops</description>
+		<link>http://scotte.github.io</link>
+		<atom:link href="http://scotte.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Top 10 Books for Advanced-level Java Developer</title>
+				<description>&lt;p&gt;I recently came through a post about &lt;a href=&quot;http://java.dzone.com/articles/top-10-books-advanced-level&quot;&gt;Top 10 Books for Advanced-level Java Developers&lt;/a&gt;. In this case although all of listed books are respectable, not all of them are about the the advanced Java developer. Books like &amp;quot;Enterprise Integration Patterns&amp;quot; can be quite irrelevant to the non EE developer and while OSGI is a very interesting development, I personally, as EE developer haven&amp;#39;t met so far, a use case where OSGI could be applied (Have seen attempts to use it, when JCA would be appropriate). Also &amp;quot;The Java language specification&amp;quot; is a book for &amp;quot;Language Lawyers&amp;quot; and even a BAR exam like OCJP wont ask for so much Java language law expertise. Some familiarity with it&amp;#39;s contents could be good, but trying to read it page by page would be a terrible waste of energy.&lt;/p&gt;
+
+&lt;p&gt;What I would add the list is the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The free Oracle java documentation, including the tutorials (which contains the best in my opinion cover of generics).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Java Concurrency in Practice by Brian Goetz and others, assuming basic thread knowledge.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Agile software development, by Robert Martin which covers 00 principles, design patterns etc. The excellent &amp;quot;Clean Code&amp;quot; book cited on the list, frequently refers to this one.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Java Puzzles by Joshua Block, not essential but entertaining, containing some surprising corner cases.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+				<pubDate>Sat, 27 Dec 2014 13:17:07 +0200</pubDate>
+				<link>http://scotte.github.io/2014/12/top-java-books</link>
+				<guid isPermaLink="true">http://scotte.github.io/2014/12/top-java-books</guid>
+			</item>
+		
+			<item>
+				<title>Basic References for working with Markdown</title>
+				<description>&lt;p&gt;The following are my basic references targetted to Github extended syntax:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Short guide including &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Github extensions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A longer GitHub oriented &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The original Markdown from &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Daring Fireball&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+				<pubDate>Sun, 14 Dec 2014 13:17:07 +0200</pubDate>
+				<link>http://scotte.github.io/2014/12/markdown</link>
+				<guid isPermaLink="true">http://scotte.github.io/2014/12/markdown</guid>
+			</item>
+		
+			<item>
+				<title>Arquilian test suite extension doesn't work with tomee 1.7.1</title>
+				<description>&lt;p&gt;&lt;a href=&quot;http://arquillian.org/&quot;&gt;Arquillian&lt;/a&gt; lacks test suites but a very nice &lt;a href=&quot;https://github.com/ingwarsw/arquillian-suite-extension&quot;&gt;Arquillian test suite custom extension&lt;/a&gt; exists.  Apart from offering Junit&amp;#39;s @Suite functionality, it&amp;#39;s  real advantage is that makes tests run faster, by allowing multiple Shrinkwrap deployments to be deployed at once. Without this every Arquillian test class run, needs a separate archive deployment, start and stop of the  managed or remote container. This worked very well for me, with Jboss 7.1 and Wildfly. Unfortunately due to some bug in Tomee&amp;#39;s Arquilian adapter this doesn&amp;#39;t work with Tomee 1.7.1 and is expected to be fixed at version 1.7.2.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/ingwarsw/arquillian-suite-extension/issues/14&quot;&gt;original discussion&lt;/a&gt; of the bug become a &lt;a href=&quot;https://issues.apache.org/jira/browse/TOMEE-1349&quot;&gt;Tomee issue&lt;/a&gt;. A workaround, or alternative strategy if you prefer, specific to Tomee 1.7.x is presented &lt;a href=&quot;http://rmannibucau.wordpress.com/2014/09/30/arquillian-tomee-and-big-applications-avoid-n-times-the-same-dump/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 30 Nov 2014 13:17:07 +0200</pubDate>
+				<link>http://scotte.github.io/2014/11/tomee171-arquillian-test-suite</link>
+				<guid isPermaLink="true">http://scotte.github.io/2014/11/tomee171-arquillian-test-suite</guid>
+			</item>
+		
+			<item>
+				<title>Ejb31 Mdb Systemexception</title>
+				<description></description>
+				<pubDate>Thu, 06 Feb 2014 00:00:00 +0200</pubDate>
+				<link>http://scotte.github.io/2014/02/ejb31-mdb-systemexception</link>
+				<guid isPermaLink="true">http://scotte.github.io/2014/02/ejb31-mdb-systemexception</guid>
+			</item>
+		
+	</channel>
+</rss>
