@@ -3,8 +3,8 @@
 	<channel>
 		<title>Bugs are green and Buzzin</title>
 		<description>The torture never stops</description>
-		<link>http://scotte.github.io</link>
-		<atom:link href="http://scotte.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Top 10 Books for Advanced-level Java Developer</title>
@@ -20,8 +20,8 @@
 &lt;/ol&gt;
 </description>
 				<pubDate>Sat, 27 Dec 2014 13:17:07 +0200</pubDate>
-				<link>http://scotte.github.io/2014/12/top-java-books</link>
-				<guid isPermaLink="true">http://scotte.github.io/2014/12/top-java-books</guid>
+				<link>/2014/12/top-java-books</link>
+				<guid isPermaLink="true">/2014/12/top-java-books</guid>
 			</item>
 		
 			<item>
@@ -35,8 +35,8 @@
 &lt;/ol&gt;
 </description>
 				<pubDate>Sun, 14 Dec 2014 13:17:07 +0200</pubDate>
-				<link>http://scotte.github.io/2014/12/markdown</link>
-				<guid isPermaLink="true">http://scotte.github.io/2014/12/markdown</guid>
+				<link>/2014/12/markdown</link>
+				<guid isPermaLink="true">/2014/12/markdown</guid>
 			</item>
 		
 			<item>
@@ -46,16 +46,16 @@
 &lt;p&gt;The &lt;a href=&quot;https://github.com/ingwarsw/arquillian-suite-extension/issues/14&quot;&gt;original discussion&lt;/a&gt; of the bug become a &lt;a href=&quot;https://issues.apache.org/jira/browse/TOMEE-1349&quot;&gt;Tomee issue&lt;/a&gt;. A workaround, or alternative strategy if you prefer, specific to Tomee 1.7.x is presented &lt;a href=&quot;http://rmannibucau.wordpress.com/2014/09/30/arquillian-tomee-and-big-applications-avoid-n-times-the-same-dump/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 30 Nov 2014 13:17:07 +0200</pubDate>
-				<link>http://scotte.github.io/2014/11/tomee171-arquillian-test-suite</link>
-				<guid isPermaLink="true">http://scotte.github.io/2014/11/tomee171-arquillian-test-suite</guid>
+				<link>/2014/11/tomee171-arquillian-test-suite</link>
+				<guid isPermaLink="true">/2014/11/tomee171-arquillian-test-suite</guid>
 			</item>
 		
 			<item>
 				<title>Ejb31 Mdb Systemexception</title>
 				<description></description>
 				<pubDate>Thu, 06 Feb 2014 00:00:00 +0200</pubDate>
-				<link>http://scotte.github.io/2014/02/ejb31-mdb-systemexception</link>
-				<guid isPermaLink="true">http://scotte.github.io/2014/02/ejb31-mdb-systemexception</guid>
+				<link>/2014/02/ejb31-mdb-systemexception</link>
+				<guid isPermaLink="true">/2014/02/ejb31-mdb-systemexception</guid>
 			</item>
 		
 	</channel>
